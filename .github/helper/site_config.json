@@ -13,5 +13,8 @@
     "root_password": "root",
     "host_name": "http://test_site:8000",
     "install_apps": ["payments", "erpnext"],
-    "throttle_user_limit": 100
+    "throttle_user_limit": 100,
+    "redis_cache": "redis:6379",
+    "redis_socketio": "redis://redis:6379",
+    "redis_queue": "redis://redis:6379"
 }
